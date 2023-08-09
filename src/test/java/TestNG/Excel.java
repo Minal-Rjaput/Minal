@@ -10,7 +10,7 @@ public class Excel {
 
 	public static void main(String[] args) throws IOException {
       
-		 String excelFilePath= "C:\\Users\\1002985\\eclipse-workspace\\Testing_Purpose\\login detils.xlsx";
+		 String excelFilePath= "C:\\Users\\1002985\\eclipse-workspace\\Testing_Purpose\\login_detils.xlsx";
 		 FileInputStream inputstream= new FileInputStream(excelFilePath);
 		 XSSFWorkbook workbook= new XSSFWorkbook(inputstream);
 		 XSSFSheet sheet= workbook.getSheet("Minal");
